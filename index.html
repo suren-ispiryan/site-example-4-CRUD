@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CRUD </title>
+	<meta charset="utf-8">
+			<!--  css connection link  -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+			<!--  bootstrap cdn -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+			<!--  jquery cdn -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+			<!--  bootstrap cdn for js -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+			<!-- icon cdn -->
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+	
+
+
+
+				<!-- header -->
+
+
+
+
+
+	<header class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+					<div class="row header-row heaser-divs">
+						<div class="col-md-3 header-divs">
+							<img src="assets/brand.png" height="50%" width="50%" class="brand">
+						</div>
+
+						<div class="col-md-7 header-divs">
+							<p class="heading"> PHP CRUD GENERATOR </p>
+						</div>
+
+						<div class="col-md-2 header-divs">
+							<div class="icons">
+								<i class="fas fa-user">  </i>
+								<i class="fas fa-chevron-right">  </i>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<hr class="hr">
+		</div>
+	</header>
+
+
+
+
+
+
+				<!-- section 1 -->
+
+
+
+
+
+<section class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<div class="row header-row pb-2 pt-2">
+					<div class="col-md-3">
+						<i class="p-2 slash"> / </i>
+						<i class="fas fa-home icon"> </i>
+						<i class="p-2 slash"> / </i>
+						<span class="rental"> rental </span>	
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+				<!-- section 2 -->
+
+
+
+
+<section class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			
+				<div class="row sec2-general-row pt-4 pb-4">
+
+			<!-- Section 2 Left Div -->
+					<div class="col-md-3 sec2-subdiv1">
+						<div class="dropdown">
+ 							<a class="btn btn-secondary dropdown-toggle generalbtn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+ 							  User Name
+ 							</a>
+
+ 							<div class="dropdown-menu list" aria-labelledby="dropdownMenuLink">
+ 								<a class="dropdown-item nav-items" href="#">CUSTOMER DATA</a>
+ 								<a class="dropdown-item nav-items" href="#">BUSINESS</a>
+ 								<a class="dropdown-item nav-items" href="#">CAT</a>
+ 								<a class="dropdown-item nav-items" href="#">NEW CATEGORY</a>
+ 							</div>
+ 						</div>
+					</div>
+
+			<!-- Section 2 iRght Div -->
+					<div class="col-md-8 sec2-subdiv2">
+						<div class="row row-1-of-4">
+							<div class="col-sm-4 btn-parrent">
+								<button class="btnadd mr-1"> + ADD NEW </button>
+								<button class="btn-upload"> 
+									<i class="fas fa-upload">  </i> 
+									<i class="fas fa-chevron-right">  </i>  
+								</button>
+							</div>
+							<div class="col-sm-4">
+								
+							</div>
+							<div class="col-sm-3 btn-parrent0">
+								<p class="result pr-5"> Results / page : </p>
+							</div>
+								<div class="col-sm-1 btn-parrent1"> 
+									<input type="number" name="page" class="pages-input">
+							</div>
+						</div>
+ 				<!-- table -->
+						<div class="row">
+							 <div class="col-md-12">
+							 	 <table>
+							 	 	<thead>
+							 	 		<tr>
+							 	 			<td> Action </td>
+							 	 			<td> rental id </td>
+							 	 			<td> rental date </td>
+							 	 			<td> customer id </td>
+							 	 			<td> Display </td>
+							 	 		</tr>
+							 	 	</thead>
+
+							 	 	<tbody class="tbody">
+							 	 		
+							 	 	</tbody>
+							 	 </table>
+							 </div>	
+						</div>
+				<!-- table end -->
+						<div class="row">
+							
+						</div>
+
+						<div class="row">
+							
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+</body>
+</html>

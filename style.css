@@ -1,0 +1,160 @@
+			/*header*/
+
+
+
+
+.header-row{
+	background-color: rgb(68,110,155);
+}
+.header-divs{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.heading{
+	color: white;
+	font-size: 18px;
+}
+.icons{
+	font-size: 12px;
+	height: 25px;
+	width: 70px;
+	background-color: silver;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 5px;
+}
+.hr{
+	height: 2px;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+				/*section 1*/
+
+
+
+
+
+
+.icon{
+	cursor: pointer;
+	color: cyan;
+	font-size: 12px;
+}
+.slash{
+	color: white;
+	font-size: 12px;
+}
+.rental{
+	cursor: pointer;
+	color: white;
+	font-size: 12px;
+}
+
+
+
+
+			
+				/*section 2*/
+
+
+
+
+.sec2-general-row{
+	display: flex;
+	justify-content: space-around !important;
+	align-items: flex-start;
+
+}
+.sec2-subdiv1{
+	display: flex;
+	justify-content: center;
+}
+.sec2-subdiv2{
+
+}
+		/*left*/
+.generalbtn{
+	background-color: rgb(68,110,155) !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	width: 250px;
+	height: 100px;
+}
+.list{
+	padding: 0 !important;
+	margin: 0 !important;
+	width: 100%;
+}
+.nav-items{
+	margin: 0 !important;
+	padding: 10px 0 10px 5px !important;
+	border: 1px grey solid !important;
+}
+		/*right*/
+.btn-parrent{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.btnadd{
+	font-size: 12px;
+	background-color: rgb(68,110,155) !important;
+	color: white;
+	width: 110px;
+	padding: 5px;
+}
+.btn-upload{
+	font-size: 12px;
+	background-color: silver;
+	width: 80px;
+	padding: 8px;
+	display: flex;
+	justify-content: space-between;
+}
+.result{
+	font-size: 14px;
+	color: rgb(156,156,156);
+}
+.pages-input{
+	width: 80px;
+}
+.btn-parrent0{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+.btn-parrent1{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+	/*table*/
+table{
+	width: 100%;
+	margin-top: 10px !important;
+}
+thead,tr{
+	border: 1px solid;
+	border-color: rgb(156,156,156);
+}
+td{
+	padding: 10px !important;
+	text-align: center;
+	font-size: 14px;
+	color: rgb(156,156,156);
+}
+
+
+
+
+
